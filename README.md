@@ -1,7 +1,7 @@
 # Web scraping de discursos presidenciais
 coleta e estruturação dos textos transcritos dos discursos dos presidentes
 
-*Em desenvolvimento*
+***Em desenvolvimento***
 
 No momento este repositório contém notebooks com códigos em python com o scraping dos últimos discursos de Bolsonaro. A última coleta foi realizada em 18 de agosto de 2020. Os textos coletados (30 ao todo) ainda necessitam limpeza para a retirada de tags html remanescentes. 
 
