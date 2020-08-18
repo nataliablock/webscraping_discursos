@@ -1,5 +1,5 @@
-# webscraping_discursos
-Web scraping de discursos presidenciais
+# Web scraping de discursos presidenciais
+coleta e estruturação dos textos transcritos dos discursos dos presidentes
 
 *Em desenvolvimento*
 
