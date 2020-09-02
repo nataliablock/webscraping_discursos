@@ -3,8 +3,14 @@ coleta e estruturação dos textos transcritos dos discursos dos presidentes
 
 ***Em desenvolvimento***
 
-No momento este repositório contém notebooks com códigos em python com o scraping dos últimos discursos de Bolsonaro. A última coleta foi realizada em 18 de agosto de 2020. Os textos coletados (30 ao todo) ainda necessitam limpeza para a retirada de tags html remanescentes. 
+O objetivo deste projeto é coletar todos os discursos presidenciais disponíveis em órgãos oficiais (Planalto e Biblioteca do Planalto) e disponibilizá-los de forma estruturada como banco de dados. 
 
-**webscraping_bolsonaro_1stpage.ipynb:** notebook com web scraping da primeira página com links de discurso e das páginas dos discursos. Código (em desenvolvimento) para a limpeza de um dos textos.
+No momento este repositório contém banco csv, jupyter notebook e script pyhton com códigos para web scraping, limpeza e estruturação dos discursos de Bolsonaro desde a posse até 2 de setembro de 2020.  Os textos coletados (270 ao todo) foram completamente limpos: tags html, acentos e pontuação foram retirados. No entanto, algumas transcrições apresentam cabeçalho com local e data que não foi possível retirar pois faziam parte do corpo do texto (ou seja, não estavam contidos em tags html separadas). Desta forma, palavras repetidas que constam no cabeçalho deverão ser tratadas quando o pesquisador fizer o tratamento do corpus para a análise segundo as necessidades de seu estudo.
 
-**webscraping_bolsonaro_paginacao.ipynb:** tentativa de criar um crawler para a paginação. 
+Na pasta "Bolsonaro" constam:
+
+**discursos_bolsonaro.csv:** banco de dados em formato csv com os textos coletados, data do discurso, ano do discurso e o link onde está hospedado o texto.
+
+**webscraping_bolsonaro.ipynb:** jupyter notebook com o script Python com o desenvolvimento do projeto. É possível visualizá-lo diretamente na página do Github ao ser clicado. 
+
+**webscraping_bolsonaro.py:** script Python com o desenvolvimento do projeto. 
