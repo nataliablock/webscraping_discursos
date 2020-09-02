@@ -11,6 +11,4 @@ Na pasta "Bolsonaro" constam:
 
 **discursos_bolsonaro.csv:** banco de dados em formato csv com os textos coletados, data do discurso, ano do discurso e o link onde está hospedado o texto.
 
-**webscraping_bolsonaro.ipynb:** jupyter notebook com o script Python com o desenvolvimento do projeto. É possível visualizá-lo diretamente na página do Github ao ser clicado. 
-
 **webscraping_bolsonaro.py:** script Python com o desenvolvimento do projeto. 
